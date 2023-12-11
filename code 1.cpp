@@ -16,6 +16,7 @@ struct Data {
     string partai;
 };
 
+//penginputan data dan data disinpan
 vector<Data> database;
 
 void inputData() {
@@ -53,6 +54,7 @@ void inputData() {
     cout << "\n----------------------------------------\n";
 }
 
+//update data berdasarkan data inputan
 void updateData() {
     string searchName;
     cout << "Masukkan nama untuk update data: ";
@@ -95,6 +97,7 @@ void updateData() {
     }
 }
 
+//menghapus  data  
 void removeData() {
     string searchName;
     cout << "Masukkan nama untuk menghapus data: ";
@@ -111,6 +114,7 @@ void removeData() {
     }
 }
 
+//melihat data dari data yang disimpan
 void viewData() {
     if (database.empty()) {
         cout << "Belum ada data yang disimpan.\n";
@@ -134,6 +138,7 @@ void viewData() {
     cout << "\n----------------------------------------\n";
 }
 
+//Struktur data  data
 int main() {
     cout << "[===========Data Pemilihan Caleg============]\n";
 
