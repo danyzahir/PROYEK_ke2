@@ -71,7 +71,7 @@ void inputData() {
     cout << "Jenis Kelamin: ";
     getline(cin, newData.jenisKelamin);
 
-    cout << "Agama; ";
+    cout << "Agama: ";
     getline(cin, newData.agama);
 
     cout << "Status Perkawinan: ";
