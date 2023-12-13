@@ -140,7 +140,7 @@ void viewData() {
 
 //Struktur data  data
 int main() {
-    cout << "[===========Data Pemilihan Caleg============]\n";
+    cout << "[[===========Data Pemilihan Caleg============]]\n";
 
     char choice;
     do {
